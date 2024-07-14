@@ -1,0 +1,33 @@
+nav{
+    background:rgba(0,0,0,0.4);
+    border-bottom: 3px solid #007bff
+}
+header .card{
+    background: #076ad4
+}
+#top{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/b8.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+    min-height : 700px;
+}
+header{
+    padding-top: 10rem
+}
+header i{
+    color:#076ad4ba
+}
+#moreExplore img,
+#moreShare img{
+    border: thin solid #ccc
+}
+#moreCreate i{
+    color: #076ad4
+}
+
+@media screen and (max-width:1200px){
+    #moreExplore img,
+    #moreCreate img,
+    #moreShare img{
+        height: 440px
+    }
+}
